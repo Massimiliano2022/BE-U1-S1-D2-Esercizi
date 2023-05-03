@@ -16,20 +16,11 @@ public class Sim {
 		System.out.println("DATI SIM:");
 		System.out.println("Numero di telefono: " +numeroTelefono);
 		System.out.println("Credito: " +credito);
-		System.out.println("Lista chiamate: " +listaChiamate.toString());
-	}
-	
-	@Override
-	public String toString() {
-		
-		String dettagliChiamate="";
+		System.out.println("Lista Chiamate:");
 		
 		for(int i=0;i<listaChiamate.length;i++) {
-			
-			dettagliChiamate+=listaChiamate[i].numeroChiamato+" "+listaChiamate[i].durataMinuti;
-			
+			Chiamata chiamata = listaChiamate[i];
+			System.out.println(chiamata.toString());
 		}
-
-		return dettagliChiamate;
 	}
 }
