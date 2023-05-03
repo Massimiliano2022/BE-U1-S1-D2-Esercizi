@@ -12,7 +12,7 @@ public class Chiamata {
 	@Override
 	public String toString() {
 		
-		return "Numero Chiamato: "+this.numeroChiamato +" "+"Durata chiamata: "+this.durataMinuti;
+		return "Numero Chiamato: "+this.numeroChiamato+" "+"Durata chiamata: "+this.durataMinuti;
 	}
 	
 }
